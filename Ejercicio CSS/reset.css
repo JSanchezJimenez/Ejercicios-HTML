@@ -1,0 +1,66 @@
+/* Reset de márgenes y rellenos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Eliminación de bordes y estilos predeterminados de elementos */
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* Estilo predeterminado de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Eliminación de estilos para listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Elementos de formulario */
+input,
+button,
+textarea,
+select {
+  border: none;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+/* Estilo para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Remover bordes de imágenes */
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Aplicar un borde a todos los campos de formularios en el enfoque */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
