@@ -1,2 +1,2 @@
-# Ejercicios HTML
+# Proyecto
 Proyecto de prueba escolar.
